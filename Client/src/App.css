@@ -1,0 +1,17 @@
+
+body {
+margin: 0;
+padding: 0;
+}
+
+
+.App {
+   min-height: 100vh;
+   margin: 0;
+   padding: 0;
+   background-image: url("./App.BakgroundImage.jpg");
+   background-size: cover;
+   background-position: center center;
+   text-align: center;
+
+}
