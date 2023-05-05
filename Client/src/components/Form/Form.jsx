@@ -35,7 +35,7 @@ const Form = ({login}) => {
                 <h2 className={style.titulo}>Sing In</h2>
                 <div className={style.input}>
                     <input type="email" name="email" value={userData.email} onChange={handleChange} placeholder="Email"/>
-                    {errors.email && <p className={style.error}>{errors.email}</p>}
+                    {errors.email && <label className={style.error}>{errors.email}</label>}
                 </div>
                 <div className={style.input}>
                     <input type="password" name="password" value={userData.password} onChange={handleChange} placeholder="Password"/>
